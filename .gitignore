@@ -1,0 +1,23 @@
+# Rust build output
+/target/
+**/*.rs.bk
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local reports and test artifacts
+/artifacts/
+/reports/
+*.sarif
