@@ -15,6 +15,9 @@ Pre-alpha. Product requirements are defined in the
 [v0.2 PRD](docs/product/Paritas-Cahier-des-Charges-PRD-v0.2.pdf);
 implementation has not started yet.
 
+The phased delivery plan, quality gates, and first sprint backlog are defined in
+the [implementation roadmap](docs/planning/IMPLEMENTATION_ROADMAP.md).
+
 ## Product principles
 
 - Evidence over inference
