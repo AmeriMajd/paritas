@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "crates/paritas-cli",
+    "crates/paritas-core",
+]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.100"
+repository = "https://github.com/AmeriMajd/paritas"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+all = { level = "deny", priority = -1 }
